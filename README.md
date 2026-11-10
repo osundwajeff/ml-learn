@@ -34,3 +34,9 @@ System link env to project root (Good for Zed IDE):
 ```bash
 ln -s ~/.conda/envs/ml-learn .venv
 ```
+
+For updating `requirements.txt`:
+
+```bash
+pip list --format=freeze > requirements.txt
+```
